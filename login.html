@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  		body{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        overflow: hidden;
+
+      }
+      .login-box{
+        width: 280px;
+        position: absolute;
+        top: 40%;
+        left: 75%;
+        transform: translate(-50%,-50%);
+
+      }
+      .textbox{
+        width: 100%;
+        overflow: hidden;
+        font-size: 20px;
+        padding: 8px 0;
+        margin: 8px 0;
+        border-bottom: 1px solid;
+      }
+      .textbox input{
+        border:none;
+        outline: none;
+        background: none;
+        font-size: 12px;
+        width: 80px;
+        float: left;
+
+        
+      }
+      .img-responsive{
+        width: 700px;
+        height: 658px;
+      }
+      .world{
+        text-align: center;
+        font-size: 30px;
+        color: #6E7FAA;
+      }
+      .Welcome{
+        font-size: 12px;
+        text-align: center;
+        color: #A9A9A9;
+      }
+      .btn-link{
+        margin-left: 30px;
+      }
+      .btn-default{
+        margin-left: 50px;
+        width: 40%;
+      }
+      .btn-primary{
+        width: 40%;
+        background-color: #6E7FAA;
+      }
+    
+    
+
+  </style>
+</head>
+<body>
+
+	<img src="asian.png" class="img-responsive">
+  <div class="login-box">
+      <p class="world">World Chat</p>
+      <p class="Welcome">Welcome Back please login to your account.</p>
+      <div class="textbox">
+        <input type="text" placeholder="Username" name="" value="">
+      </div>
+      <div class="textbox">
+        <input type="password" placeholder="Password" name="" value="">
+      </div> 
+      <div class="checkbox">
+      <label><input type="checkbox" value="">Remember me</label>
+      <button type="button" class="btn btn-link">Forgot Password</button>
+    </div>
+       <button type="button" class="btn btn-primary">Login</button>
+      <button type="button"  class="btn btn-default">Sign up</button>
+    </div>
+      
+	</body>
+	</html>

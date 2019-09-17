@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing Page</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  	body
+  	{
+  		margin: 0;
+  		padding:0;
+  		background-color: black;
+  		
+  	}
+  	.top-left 
+  	{
+ 	 	position: absolute;
+  	 	top: 50px;
+  	 	left: 210px;
+  	 	color:#FFFFFF;
+  	 	font-family: "Basic Sans Light SF", sans-serif;
+  	 	font-size: 	30px;
+  	 	
+
+	}
+	.aboutus
+	{
+  		position: absolute;
+ 		top: 120px;
+  		right: 450px;
+  		color: #FFFFFF;
+  		font-family: "Basic Sans Light SF", sans-serif;
+  	 	font-size: 	20px;
+	}
+	.reviews
+	{
+  		position: absolute;
+ 		top: 120px;
+  		right: 360px;
+  		color: #FFFFFF;
+  		font-family: "Basic Sans Light SF", sans-serif;
+  	 	font-size: 	20px;
+	}
+	.Services
+	{
+  		position: absolute;
+ 		top: 120px;
+  		right: 270px;
+  		color: #FFFFFF;
+  		font-family: "Basic Sans Light SF", sans-serif;
+  	 	font-size: 	20px;
+	}
+	.signup
+	{
+  		position: absolute;
+ 		top: 120px;
+  		right: 180px;
+  		color: #FFFFFF;
+  	    font-family: "Basic Sans Light SF", sans-serif;
+  	 	font-size: 	20px;
+	}
+	.chat
+	{
+  		position: absolute;
+ 		top: 180px;
+  		right: 275px;
+  		color: #FFFFFF;
+  		font-family: "Times New Roman", Times, serif;
+  	 	font-size: 	30px;
+  	 	font-weight: bold;
+	}
+	.button{
+		border-radius: 40px/27px;
+ 		 position: absolute;
+ 		 bottom: 200px;
+ 		 right: 350px;
+ 		 font-family: "Basic Sans Light SF", sans-serif;
+ 		 background-color:  #FFFFFF;
+ 		 padding-top: 10px;
+ 		 padding-left: 50px;
+ 		 padding-right: 50px;
+ 		 padding-bottom: 10px;
+ 		 font-weight: lighter;
+
+	}
+	.path{
+		position: absolute;
+		top: 45px;
+		left: 150px;
+		width: 50px;
+		height: 50px;
+	}
+	.img-responsive{
+		width: 100%;
+		height: auto;
+	}
+	.img{
+		margin-top: 10px;
+		width: 50%;
+		height: 50%;
+		margin-left: 550px;
+		margin-bottom: 50px;
+		
+	}
+	.Group{
+		background-color: #6E7FAA;
+	}
+	.chatbtn{
+		font-family: "Basic Sans Light SF", sans-serif;
+ 		 background-color: #778899;
+ 		 padding-top: 10px;
+ 		 padding-left: 50px;
+ 		 padding-right: 50px;
+ 		 padding-bottom: 10px;
+ 		 font-weight: lighter;
+ 		 margin-left: 80px;
+ 		 margin-top: 400px;
+ 		 position: absolute;
+ 		 border-radius: 40px/24px;
+ 		 color: white;
+
+	}
+	.people{
+		font-weight: bold;
+		text-align: center;
+		color: white;
+		padding-top: 50px;
+		font-family: "Basic Sans Light SF", sans-serif;
+		font-size: 20px;
+	}
+	.Love{
+		background-image: url("bg.png");
+		
+	}
+	.rcorners 
+	{
+  		border-radius: 25px;
+ 		margin-left: 50px;
+ 		padding: 20px; 
+  		width: 300px;
+  		height: 150px; 
+  		background-color: white; 
+  		color: black;
+  		display: inline-block;
+  		margin-top: 30px;
+  		
+	}
+	.rcorners1 
+	{
+  		border-radius: 25px;
+ 		margin-left: 70px;
+ 		padding: 20px; 
+  		width: 300px;
+  		height: 150px; 
+  		background-color: white; 
+  		color: black;
+  		display: inline-block;
+  		margin-top: 30px;
+  		
+	}
+	.rcorners2 
+	{
+  		border-radius: 25px;
+ 		margin-left: 70px;
+ 		padding: 20px; 
+  		width: 300px;
+  		height: 150px; 
+  		background-color: white; 
+  		color: black;
+  		display: inline-block;
+  		margin-top: 30px;
+	}
+	.all{
+		 padding-top: 10px;
+ 		 padding-left: 40px;
+ 		 padding-right: 40px;
+ 		 padding-bottom: 10px;
+ 		 font-weight: lighter;
+ 		 margin-left: 450px;
+ 		 margin-top: 20px;
+ 		 border-radius: 40px/24px;
+ 		 background-color: #FFe6ee;
+ 		 margin-bottom: 50px;
+ 		
+
+	}
+	.section4{
+		background-color: #6E7FAA;
+		
+
+	}
+	.psection4{
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+		text-align: center;
+		font-family: "Basic Sans Light SF", sans-serif;
+		padding-top: 50px;
+
+	}
+	.notification{
+		color: white;
+		font-size: 15px;
+		text-align: center;
+		margin-top: 30px;
+
+	}
+	.hand
+	{
+  		border-radius: 25px;
+ 		margin-left: 440px;
+ 		padding: 20px; 
+  		width: 230px;
+  		height: 250px; 
+  		background-color: white; 
+  		color: black;
+
+  		
+  	
+  		
+	}
+	.handimg{
+		margin-left: 500px;
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+		
+		
+	}
+	.in{
+		margin-top: 10px;
+		font-weight: bold;
+		text-align: center;
+		color: grey;
+	}
+	.ad{
+		text-align: center;
+		margin-top: 20px;
+	}
+ 	.money{
+ 		text-align: center;
+ 		margin-top: 50px;
+ 		color: #696969;
+ 		font-size: 20px;
+ 		font-weight: bold;
+ 		
+ 	}
+ 	.small{
+ 		font-size: 10px;
+ 		text-align: center;
+
+ 	}
+ 	.buy{
+ 		
+		 padding-top: 10px;
+ 		 padding-left: 50px;
+ 		 padding-right: 50px;
+ 		 padding-bottom: 10px;
+ 		 background-color: #778899;
+ 		 margin-left: 470px;
+ 		 margin-top: 20px;
+ 		 border-radius: 40px/24px;
+ 		 margin-bottom: 50px;
+ 		 color: white;
+ 		
+
+	}
+	.lastsection{
+		width: 100%;
+		height: 200px;
+		background-image: url("Base.png");
+
+	}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+  	<img src="Mask Group 2.png" class="img-responsive">
+  	<div class="Group">
+  	<button class="chatbtn">Chat Anonymously</button>
+  	<img src="Group 1731.png" class="img">
+  </div>
+  <div class="Love">
+  	<p class="people">Some Love People Have Shown</p>
+  	<p class="rcorners"></p>
+  	<p class="rcorners1"></p>
+  	<p class="rcorners2"></p>
+  	<p class="rcorners"></p>
+  	<p class="rcorners1"></p>
+  	<p class="rcorners2"></p>
+  	<button class="all">Read All Reviews</button>
+  </div>
+  <div class="section4">
+  	<p class="psection4">Chat Without Disturbance</p>
+  	<p class="notification">All Services include live update including photos and chat,<br> as well as notification of sitter arrival and departure times.</p>
+  	<p class="handimg"><img src="Group 1726.png"></p>
+  	<div class="hand"><p class="in">I'm in</p><p class="ad">Ready for an ad free<br> <center>experience</center></p><p class="money">$15</p><p class="small"><small>PERMONTH</small></p></div>>
+  	<button class="buy">Buy</button>
+  </div>
+  <div class="lastsection">
+  </div>
+   <img src="Path 104.png" class="path">            
+  <div class="top-left">World Chat</div>
+  <div class="aboutus">About us</div> 
+  <div class="reviews">Reviews</div>
+  <div class="Services">Services</div>
+  <div class="signup">Sign up</div>
+  <div class="chat">Chat With Amazing<br> People Around The <br>Globe
+</div>
+<button class="button">Join A Room</button>
+</div>
+</body>
+</html>
